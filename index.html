@@ -559,7 +559,7 @@
 
                     if (thumbsClose && indexesApart && sameHeight) {
                         state = 'HEART';
-                        statusDiv.innerText = "🤲 2 Tay Ghép Trái Tim";
+                        //statusDiv.innerText = "🤲 2 Tay Ghép Trái Tim";
                         statusDiv.style.color = "#FF69B4";
                         return;
                     }
@@ -578,13 +578,13 @@
 
                     if (avgDist < 0.25) {
                         state = 'TREE';
-                        statusDiv.innerText = "✊ Thu Cây Thông"; statusDiv.style.color = "#FFD700";
+                        //statusDiv.innerText = "✊ Thu Cây Thông"; statusDiv.style.color = "#FFD700";
                     } else if (pinchDist < 0.05) {
                         state = 'PHOTO';
-                        statusDiv.innerText = "👌 Xem Ảnh"; statusDiv.style.color = "#00FFFF";
+                        //statusDiv.innerText = "👌 Xem Ảnh"; statusDiv.style.color = "#00FFFF";
                     } else {
                         state = 'EXPLODE';
-                        statusDiv.innerText = "🖐 Bung Quà & Ảnh"; statusDiv.style.color = "#FFA500";
+                        //statusDiv.innerText = "🖐 Bung Quà & Ảnh"; statusDiv.style.color = "#FFA500";
                     }
                 } else {
                     state = 'TREE';
@@ -610,6 +610,7 @@
 
 
 </html>
+
 
 
 
